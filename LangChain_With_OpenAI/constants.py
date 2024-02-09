@@ -1,1 +1,1 @@
-openai_key="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"
+openai_key=""
