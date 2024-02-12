@@ -1,0 +1,4 @@
+openai
+streamlit
+langhain
+python-dotenv # helps to create and upload the variable with respect to our applications
