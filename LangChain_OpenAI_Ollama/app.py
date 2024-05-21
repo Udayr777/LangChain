@@ -40,7 +40,7 @@ print(f"LANGCHAIN_TRACKING_V2: {os.getenv('LANGCHAIN_TRACKING_V2')}")
 logging.basicConfig(level=logging.DEBUG)
 
 def send_tracking_data(data):
-    url = "http://your-langchain-server-url/tracking"  # Replace with your actual tracking endpoint
+    url = ""  
     try:
         response = requests.post(url, json=data)
         response.raise_for_status()
